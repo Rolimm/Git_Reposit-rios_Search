@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linguagens de programação</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@octokit/rest/dist/octokit-rest.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="divpai">
+        <h1>Pesquisa de Repositórios no Git</h1>
+        <div class="linguagens">
+            <div class="dropdown">
+                <select id="select" class="select">
+                </select>
+            </div>
+    
+            <div>
+                <h1 id="titulo" class="titulo"></h1>
+                <p id="mensagem" class="mensagem"></p>
+                <div id="informations" class="informations">
+                    <i id="stars" class="fas fa-star"></i>
+                    <i id="forks" class="fas fa-code-branch"></i>
+                    <i id="visual" class="fas fa-eye"></i>
+                </div>
+            </div><br>
+
+            <button id="describe" class="describe" type="submit">Repositório no Git</button>
+    
+            <button type="submit" class="submit" id="submit"></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
